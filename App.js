@@ -1,5 +1,5 @@
-import { LinearGradient } from "expo-linear-gradient";
 import { StyleSheet, ImageBackground } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
 
 import StartGameScreen from "./screens/StartGameScreen";
 
