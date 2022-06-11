@@ -1,6 +1,6 @@
 import { View, Text, Pressable, StyleSheet } from "react-native";
 
-const PrimaryButton = ({ children }) => {
+function PrimaryButton({ children }) {
   function pressHandler() {
     console.log("Pressed!");
   }
@@ -20,7 +20,7 @@ const PrimaryButton = ({ children }) => {
       </Pressable>
     </View>
   );
-};
+}
 
 export default PrimaryButton;
 
