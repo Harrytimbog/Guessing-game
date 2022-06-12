@@ -16,5 +16,7 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: "white",
     padding: 12,
+    maxWidth: "80%", // Referes to the container that hold this element
+    width: 300,
   },
 });
